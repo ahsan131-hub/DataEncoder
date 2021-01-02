@@ -1,0 +1,89 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+* {
+	-fx-primary:#2A2E37;
+	-fx-secondary: #FFFF8D;
+	-fx-primaryTextFill:#B2B2B2;
+	-fx-red:RED;
+}
+.root{
+	 -fx-background-color: -fx-primary;
+	
+}
+.glyph-icon{
+	-fx-fill:-fx-primaryTextFill;
+	
+	
+}
+.button{
+	-fx-text-fill:-fx-primaryTextFill;
+	
+	
+}
+.login-button{
+	-fx-border-color:-fx-secondary;
+	-fx-border-radius:20px;
+	-fx-background-radius:20px;
+	
+}
+
+.text-field{
+	-fx-text-fill:-fx-primaryTextFill;
+	-fx-font-size:13px;
+	-jfx-focus-color:-fx-secondary;
+	
+	
+}
+
+.jfx-button{
+	-fx-text-fill: -fx-primaryTextFill;
+}
+.jfx-button:hover{
+	 -fx-background-color:-fx-secondary;
+	 -fx-text-fill:-fx-primaryTextFill;
+}
+
+.wrong-credentials{
+	-jfx-unfocus-color:	-fx-red;
+	-jfx-focus-color:	-fx-red;
+}
+
+
+/*from here i will star for main screen  */
+
+
+/*tab styling  */
+
+
+
+.tab{
+	-fx-text-fill:-fx-primaryTextFill;
+	-fx-background-color: derive(-fx-primary,40%);
+	
+} /*
+ * -fx-pref-width:300;
+	-fx-pref-height:30;
+	 */
+.tab-header-background{
+	-fx-background-color:-fx-primary;
+	
+}
+
+
+.menu-bar{
+	-fx-base:-fx-primary;
+	-fx-background-color:-fx-primary;
+}
+.context-menu{
+	-fx-background-color:derive(-fx-primary,30%);
+}
+
+.jfx-hamburger-icon{
+	-fx-spacing: 7;
+	
+}
+.jfx-hamburger-icon StackPane{
+	-fx-background-color: -fx-secondary;
+	-fx-background-radius: 5px;
+	
+	
+}
