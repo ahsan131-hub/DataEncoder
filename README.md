@@ -18,3 +18,4 @@
    will have your encoded file there.
 8. For decoding a file, browse an already encoded file, and the software will decode the file 
    and save the decoded file inside a directory "decoded files".
+9.Link to the project video: https://youtu.be/GrzfcGGnpFI
